@@ -1,0 +1,19 @@
+---
+---
+
+@import url("common/fonts/rosario/stylesheet.css");
+
+$font-family-sans-serif: "Rosario", Arial, sans-serif;
+$font-family-serif:     Georgia, serif;
+$font-family-mono:      Ubuntu Mono;
+$font-family-base:      $font-family-sans-serif;
+
+@import "default";
+
+.wrap {
+  background-image: url('./images/background.png');
+}
+
+.sidebar-toggle {
+  display: none;
+}
